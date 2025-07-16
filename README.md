@@ -45,7 +45,7 @@ php mythicaldash addon online-install
 ```
 When prompted, enter the following URL:
 ```
-https://mirror.mythical.systems/de/mythicaldash/addons/discorduserwebhook.myd
+https://github.com/MythicalLTD/MythicalDash-Addon-DiscordHook/releases/latest/download/discorduserhook.myd
 ```
 
 ### Method 2: Manual Installation

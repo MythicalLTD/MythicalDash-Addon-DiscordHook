@@ -51,7 +51,6 @@ class DiscordUserHook implements MythicalDashPlugin
 
 		$event->on(TicketEvent::onTicketCreate(), function($ticket_id, $department_id, $subject, $message, $priority, $user_id) {
 			new DiscordWebHookTicketCreateEvent($ticket_id, $department_id, $subject, $message, $priority, $user_id);
-			
 		});
 	}
 
